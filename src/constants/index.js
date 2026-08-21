@@ -496,7 +496,7 @@ const WORK_LOCATION = {
             "Developed a multilingual contract renewal platform with a multi-step wizard for employer and worker data collection, document validation, signature capture, pricing, and review/confirmation workflows.",
             "Implemented robust frontend flows for order tracking, payment initiation, and session-aware status updates using React Hook Form, Zod validation, TanStack Query, and persisted draft/session management",
             "Integrated real-time communication and notifications with Firebase Cloud Messaging, Laravel Echo, and Pusher to push status changes and support chat updates across the user journey.",
-            "Built responsive, API-driven landing, blog, and tracking experiences using Next.js App Router, server/client data fetching, localization, reusable UI components, and PDF/print export for final contract delivery."
+            "Built responsive, API-driven landing, blog, and tracking experiences using Next.js App Router, server/client data fetching, localization, reusable UI components, and PDF/print export for final contract delivery.",
           ],
         },
         {
@@ -539,7 +539,7 @@ const WORK_LOCATION = {
             "Built a bilingual (Arabic/English) customer web app with Next.js App Router, enabling on-location car wash bookings, monthly subscription packages, and integrated online payments.",
             "Delivered authenticated user flows—registration/login, profile management, booking history, active packages, and wash requests—with React Query, Zustand, and a typed REST API client (Bearer auth,locale-aware requests)",
             "Integrated real-time communication and notifications with Firebase Cloud Messaging, Laravel Echo, and Pusher to push status changes and support chat updates across the user journey.",
-            "mplemented real-time push notifications via Firebase Cloud Messaging, a responsive UI (Tailwind CSS,shadcn/ui), and feature-based architecture for marketing pages, services, and blog content."
+            "mplemented real-time push notifications via Firebase Cloud Messaging, a responsive UI (Tailwind CSS,shadcn/ui), and feature-based architecture for marketing pages, services, and blog content.",
           ],
         },
         {
@@ -609,9 +609,9 @@ const ABOUT_LOCATION = {
       subtitle: "Meet the Developer Behind the Code",
       image: "/images/me.png",
       description: [
-        "Hey! I’m Kerolos 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I'm a Frontend Engineer with 1.5+ years of proven experience in React.js and Next.js.",
-        "I’m big on clean UI, good UX, and interactive interfaces.",
+        "Hey! I’m Kerolos 👋, a Frontend Engineer passionate about building modern, high-performance web applications with clean architecture and great user experiences.",
+        "I have 2+ years of hands-on experience with React.js and Next.js, building scalable dashboards, business platforms, and interactive web applications from idea to production.",
+        "I focus on clean, maintainable code, responsive UI, accessibility, performance, and smooth user experiences — while using modern tools and best practices to build products that are reliable and easy to scale.",
       ],
     },
   ],
