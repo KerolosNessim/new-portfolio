@@ -124,7 +124,7 @@ const techStack = [
   },
   {
     category: "Dev Tools",
-    items: ["Git", "GitHub", "Docker"],
+    items: ["Git", "GitHub", "Claude.ai"],
   },
 ];
 
@@ -194,7 +194,7 @@ const gallery = [
   },
   {
     id: 2,
-    img: "/images/gal2.jpg",
+    img: "/images/me.png",
   },
   {
     id: 3,
@@ -202,7 +202,7 @@ const gallery = [
   },
   {
     id: 4,
-    img: "/images/gal4.jpg",
+    img: "/images/me.jpg",
   },
 ];
 
@@ -266,14 +266,13 @@ const WORK_LOCATION = {
         },
       ],
     },
-
     // ▶ Project 2
     {
       id: 6,
       name: "Subcode Portfolio",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-52 right-80",
+      position: "top-10 left-40",
       windowPosition: "top-[20vh] left-5",
       children: [
         {
@@ -356,7 +355,7 @@ const WORK_LOCATION = {
       name: "Sea Tourism",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-10 left-40",
+      position: "top-40 left-5",
       windowPosition: "top-[47vh] left-5",
       children: [
         {
@@ -398,7 +397,7 @@ const WORK_LOCATION = {
       name: "Anonymous Defenders",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-52 right-40",
+      position: "top-40 left-40",
       windowPosition: "top-[62vh] left-5",
       children: [
         {
@@ -435,6 +434,134 @@ const WORK_LOCATION = {
         },
       ],
     },
+    // ▶ Project 5
+    {
+      id: 10,
+      name: "ME-Pharmacies",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-40 left-80",
+      windowPosition: "top-[5vh] left-40",
+      children: [
+        {
+          id: 1,
+          name: "ME-Pharmacies.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 right-10",
+          description: [
+            "Developed a role-based pharmacy operations dashboard for Super Admin, Supervisor, and Pharmacist users with secure authentication and protected routing.",
+            "Built inventory management, bulk product import, inter-pharmacy transfers, cash and delivery tracking, stock requests, and task workflows, including Excel export and print reporting.",
+            "Implemented staff administration, real-time chat, and Firebase push notifications to support cross-pharmacy coordination.",
+          ],
+        },
+        {
+          id: 2,
+          name: "ME-Pharmacies.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://mepharmacies.com",
+          position: "top-20 left-20",
+        },
+        {
+          id: 4,
+          name: "ME-Pharmacies.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 left-80",
+          imageUrl: "/projects/me-pharm.png",
+        },
+      ],
+    },
+    // ▶ Project 6
+    {
+      id: 11,
+      name: "Hala Wa Sahla",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-70 left-5",
+      windowPosition: "top-[20vh] left-40",
+      children: [
+        {
+          id: 1,
+          name: "Hala Wa Sahla.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 right-10",
+          description: [
+            "Developed a multilingual contract renewal platform with a multi-step wizard for employer and worker data collection, document validation, signature capture, pricing, and review/confirmation workflows.",
+            "Implemented robust frontend flows for order tracking, payment initiation, and session-aware status updates using React Hook Form, Zod validation, TanStack Query, and persisted draft/session management",
+            "Integrated real-time communication and notifications with Firebase Cloud Messaging, Laravel Echo, and Pusher to push status changes and support chat updates across the user journey.",
+            "Built responsive, API-driven landing, blog, and tracking experiences using Next.js App Router, server/client data fetching, localization, reusable UI components, and PDF/print export for final contract delivery."
+          ],
+        },
+        {
+          id: 2,
+          name: "Hala Wa Sahla.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://halawasahla.ittlt.com/",
+          position: "top-20 left-20",
+        },
+        {
+          id: 4,
+          name: "Hala Wa Sahla.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 left-80",
+          imageUrl: "/projects/hala.png",
+        },
+      ],
+    },
+    // ▶ Project 7
+    {
+      id: 12,
+      name: "Iwash",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-70 left-40",
+      windowPosition: "top-[33vh] left-40",
+      children: [
+        {
+          id: 1,
+          name: "Iwash.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 right-10",
+          description: [
+            "Built a bilingual (Arabic/English) customer web app with Next.js App Router, enabling on-location car wash bookings, monthly subscription packages, and integrated online payments.",
+            "Delivered authenticated user flows—registration/login, profile management, booking history, active packages, and wash requests—with React Query, Zustand, and a typed REST API client (Bearer auth,locale-aware requests)",
+            "Integrated real-time communication and notifications with Firebase Cloud Messaging, Laravel Echo, and Pusher to push status changes and support chat updates across the user journey.",
+            "mplemented real-time push notifications via Firebase Cloud Messaging, a responsive UI (Tailwind CSS,shadcn/ui), and feature-based architecture for marketing pages, services, and blog content."
+          ],
+        },
+        {
+          id: 2,
+          name: "Iwash.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://iwash.co/",
+          position: "top-20 left-20",
+        },
+        {
+          id: 4,
+          name: "Iwash.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 left-80",
+          imageUrl: "/projects/iwash.png",
+        },
+      ],
+    },
   ],
 };
 
@@ -447,12 +574,12 @@ const ABOUT_LOCATION = {
   children: [
     {
       id: 1,
-      name: "me.jpg",
+      name: "me.png",
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/gal3.jpg",
+      imageUrl: "/images/me.png",
     },
     {
       id: 2,
@@ -480,7 +607,7 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/gal3.jpg",
+      image: "/images/me.png",
       description: [
         "Hey! I’m Kerolos 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
         "I'm a Frontend Engineer with 1.5+ years of proven experience in React.js and Next.js.",
