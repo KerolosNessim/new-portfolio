@@ -106,11 +106,6 @@ const IOS = () => {
         </div>
       )}
 
-      {!current && (
-        <div className="pointer-events-none absolute inset-x-0 bottom-1.5 z-10 flex justify-center">
-          <span className="h-1.5 w-36 rounded-full bg-white/80" />
-        </div>
-      )}
     </div>
   )
 }
