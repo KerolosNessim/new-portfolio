@@ -12,8 +12,14 @@ import Image from "#windows/Image"
 import Contact from "#windows/Contact"
 import Home from "#components/Home"
 import Photos from "#windows/Photos"
+import IOS from "./ios/IOS"
+import useIsMobile from "./ios/useIsMobile"
 gsap.registerPlugin(Draggable)
 const App = () => {
+  const isMobile = useIsMobile()
+
+  if (isMobile) return <IOS />
+
   return (
     <main>
       <Navbar />
