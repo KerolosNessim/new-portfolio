@@ -78,7 +78,7 @@ const IOS = () => {
           ))}
         </div>
 
-        <div className="mt-auto mb-5 rounded-[28px] bg-white/25 p-3 backdrop-blur-xl">
+        <div className="mt-auto rounded-[28px] bg-white/25 p-3 backdrop-blur-xl">
           <div className="grid grid-cols-4 gap-3">
             {dock.map((app) => (
               <AppIcon key={app.id} app={app} onOpen={open} label={false} />
@@ -107,7 +107,7 @@ const IOS = () => {
       )}
 
       {!current && (
-        <div className="pointer-events-none absolute inset-x-0 bottom-2 z-10 flex justify-center">
+        <div className="pointer-events-none absolute inset-x-0 bottom-1.5 z-10 flex justify-center">
           <span className="h-1.5 w-36 rounded-full bg-white/80" />
         </div>
       )}
