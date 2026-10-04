@@ -58,11 +58,11 @@ const IOS = () => {
       <img src="/images/me.jpg" alt="" className="absolute inset-0 size-full object-cover opacity-80" />
       <div className="absolute inset-0 bg-black/30" />
 
-      <StatusBar dark={!!current && !closing} />
+      {/* <StatusBar dark={!!current && !closing} /> */}
 
       {/* Home screen */}
       <div
-        className={`absolute inset-0 flex flex-col px-6 pt-20 pb-6 transition-all duration-300 ${
+        className={`absolute inset-0 flex flex-col px-6 pt-6 pb-6 transition-all duration-300 ${
           current && !closing ? "scale-95 opacity-0" : "scale-100 opacity-100"
         }`}
       >
