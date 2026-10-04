@@ -62,7 +62,7 @@ const IOS = () => {
 
       {/* Home screen */}
       <div
-        className={`absolute inset-0 flex flex-col px-6 pt-20 pb-28 transition-all duration-300 ${
+        className={`absolute inset-0 flex flex-col px-6 pt-20 pb-6 transition-all duration-300 ${
           current && !closing ? "scale-95 opacity-0" : "scale-100 opacity-100"
         }`}
       >
@@ -78,7 +78,7 @@ const IOS = () => {
           ))}
         </div>
 
-        <div className="mt-auto rounded-[28px] bg-white/25 p-3 backdrop-blur-xl">
+        <div className="mt-auto mb-5 rounded-[28px] bg-white/25 p-3 backdrop-blur-xl">
           <div className="grid grid-cols-4 gap-3">
             {dock.map((app) => (
               <AppIcon key={app.id} app={app} onOpen={open} label={false} />
